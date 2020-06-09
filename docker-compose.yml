@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  sentry_ssg: 
+    build:
+      context: .
+      dockerfile: node.dockerfile
+    ports:
+      - "6543:3000"
+    volumes:
+      - /usr/src/app
+    working_dir: /usr/src/app
