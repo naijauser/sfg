@@ -5,7 +5,7 @@ const filesRoute = require('./routes/file')
 const mongoose = require('mongoose');
 const fileupload = require('express-fileupload')
 
-const URI = 'mongodb+srv://mongo-user:mongo-user@cluster0-8vn6o.mongodb.net/file?retryWrites=true&w=majority'
+const URI = ''
 
 
 mongoose
